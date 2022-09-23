@@ -16,9 +16,9 @@ library(tidyverse)
 We set up the data frame.
 
 ```{r setup-tibble}
-usernames <- c("wilsonamy", "kirstenodonoghue", "nwexelstein", "hrissyy", "username 4") #Extend if necessary
-nums <- c(18, 18, 1, 18, NA) #Extend if necessary
-colours <- c("powderblue", "peachpuff3", "seagreen4", "red1", "colour 4") #Extend if necessary
+usernames <- c("wilsonamy", "kirstenodonoghue", "nwexelstein", "hrissyy", "username") #Extend if necessary
+nums <- c(18, 18, 1, 18, 9) #Extend if necessary
+colours <- c("powderblue", "peachpuff3", "seagreen4", "red1", "yellow1") #Extend if necessary
 hobbies <- c("Hiking", "Running", "Reading", "Sleeping", "Hobby 4") #Extend if necessary
 
 team_data <- tibble(username = usernames, die_roll = nums, colour = colours,
